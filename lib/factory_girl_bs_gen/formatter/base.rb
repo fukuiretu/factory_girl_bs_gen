@@ -1,14 +1,14 @@
 module FactoryGirlBsGen
   module Formatter
     class Base
-      def format(column_names, row)
+      def format(table, column_names, row)
         key_values =
           [].tap do |arr|
             column_names.each_with_index do |v, i|
               arr << "#{v}:#{row[i]}"
             end
           end
-        sprintf(template, {values: key_values.join(",")})
+        sprintf(template, {table: table, values: key_values.join(", ")})
       end
 
       def template

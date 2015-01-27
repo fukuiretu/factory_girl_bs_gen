@@ -1,10 +1,10 @@
 module FactoryGirlBsGen
   module Formatter
     class CreateFormatter < Base
-      TEMPLATE = "bulid(%{table_name}, %{key-values})"
+      SYNTAX_TEMPLATE = "FactoryGirl.create(:%{table}, %{values})"
 
       def template
-        TEMPLATE
+        SYNTAX_TEMPLATE
       end
     end
   end
