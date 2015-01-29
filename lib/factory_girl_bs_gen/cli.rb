@@ -8,6 +8,7 @@ module FactoryGirlBsGen
     option :file, type: :string, aliases: '-f', desc: "target file is csv", required: true
     option :format, type: :string, desc: "target table name", required: true
     option :output, type: :string, aliases: '-o', desc: "output"
+    option :omit_syntax, type: :boolean, desc: "And omit the syntax"
     def exec
       Generator.new(
         options
