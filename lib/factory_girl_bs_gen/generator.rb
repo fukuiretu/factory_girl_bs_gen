@@ -38,7 +38,7 @@ module FactoryGirlBsGen
       if @options[:output]
         File.write(options[:output], out_records.join("\n"))
       else
-        puts "outputs:"
+        puts "outputs:\n"
         out_records.each do |v|
           puts "\t" << v
         end
