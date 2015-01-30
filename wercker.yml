@@ -27,4 +27,4 @@ build:
 
     - script:
         name: rspec
-        code: bundle exec rake spec
+        code: bundle exec rspec
