@@ -1,5 +1,5 @@
-# FactoryGirlBsGen [![Code Climate](https://codeclimate.com/github/fukuiretu/factory_girl_bs_gen/badges/gpa.svg)](https://codeclimate.com/github/fukuiretu/factory_girl_bs_gen) [![wercker status](https://app.wercker.com/status/dface65b15dd77718d9422920db079a0/s "wercker status")](https://app.wercker.com/project/bykey/dface65b15dd77718d9422920db079a0)
-TODO: Gem
+# FactoryGirlBsGen [![Gem Version](https://badge.fury.io/rb/factory_girl_bs_gen.svg)](http://badge.fury.io/rb/factory_girl_bs_gen) [![Code Climate](https://codeclimate.com/github/fukuiretu/factory_girl_bs_gen/badges/gpa.svg)](https://codeclimate.com/github/fukuiretu/factory_girl_bs_gen) [![wercker status](https://app.wercker.com/status/dface65b15dd77718d9422920db079a0/s "wercker status")](https://app.wercker.com/project/bykey/dface65b15dd77718d9422920db079a0)
+
 
 
 ## Overview
