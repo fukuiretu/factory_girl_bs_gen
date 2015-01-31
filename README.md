@@ -4,9 +4,9 @@ TODO: Gem
 
 ## Overview
 
-FactoryGirlBsGen = factory_girl build syntax generater
+FactoryGirlBsGen = [factory_girl](https://github.com/thoughtbot/factory_girl) build syntax generater
 
-The build syntax of factory_girl from a file is CLI tool to generate.
+The build syntax of [factory_girl](https://github.com/thoughtbot/factory_girl) from a file is CLI tool to generate.
 Currently I only supports CSV.
 
 
