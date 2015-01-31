@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = FactoryGirlBsGen::VERSION
   spec.authors       = ["fukuiretu"]
   spec.email         = ["s0232101@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "FactoryGirl build syntax generator"
+  spec.homepage      = "https://github.com/fukuiretu/factory_girl_bs_gen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
