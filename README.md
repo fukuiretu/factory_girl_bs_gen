@@ -35,8 +35,8 @@ Or install it yourself as:
 $ factory_girl_bs_gen exec -t hoge -f data.csv -o factory_girl_bs_gen.out --format=build --omit_syntax=false
 ```
 
-Input:
-```csv:sample.csv
+Input(CSV file):
+```csv
 hoge,foo,bar
 1,2,3
 4,5,6
@@ -44,7 +44,7 @@ hoge,foo,bar
 ```
 
 Output:
-```
+```bash
 FactoryGirl.build(:hoge, hoge:1, foo:2, bar:3)
 FactoryGirl.build(:hoge, hoge:4, foo:5, bar:6)
 FactoryGirl.build(:hoge, hoge:7, foo:8, bar:9)
@@ -110,7 +110,7 @@ FactoryGirl.build(:hoge, hoge:7, foo:8, bar:9)
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/factory_girl_bs_gen/fork )
+1. Fork it ( https://github.com/fukuiretu/factory_girl_bs_gen/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
